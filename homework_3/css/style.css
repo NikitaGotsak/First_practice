@@ -1,0 +1,64 @@
+body {
+	background: #282828;
+}
+
+.box {
+	background-image: url(../img/background.jpg);
+	width: 960px;
+	height: 880px;
+	margin: 0 auto; 
+}
+
+/*HEADER*/   
+
+.logo {
+	margin-left: 71px;
+	margin-top: 57px;
+	float:left;
+}
+
+.first_contacts_item {
+	font-weight: bold;
+	line-height: 15px;
+}
+
+.contacts {
+	width: 110px;
+	float:left;
+	color: white;
+	font-size: 10px;
+	margin-left: 450px;
+	margin-top: 150px;
+	line-height: 12px;
+	font-family: Tahoma;
+}
+/*CONTENT 686868 cad5eb*/
+
+.content {
+	margin-left:70px;
+	color: white;
+	font-family: Tahoma;
+	font-size: 15px;
+	width:860px;
+}
+
+.content_item {
+	float: left;
+	margin-right: 12px;
+	text-align: center;
+	margin-bottom: 53px;
+}
+
+.content_img {
+	border: 3px solid #9b9b9b;
+}
+
+/*FOOTER*/
+
+.footer {
+	font-size:12px;
+	display:block;
+	text-align:center;
+	color:white;
+	margin-top:134px;
+}
