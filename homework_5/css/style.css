@@ -1,0 +1,177 @@
+.box {
+	width: 1215px;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header {
+	height: 36px;
+    background: #074c89;
+}
+
+.menu {
+	margin-left: 456px;
+}
+
+.menu__item {
+	float: left;
+}
+
+.menu__link {
+	color: #60b5ed;
+	font-size: 14px;
+	font-family: Tahoma, Arial, sans-serif;
+	display: block;
+	text-decoration: none;
+	display: block;
+	height: 25px;
+	padding-top: 11px;
+	padding-left: 12px;
+	padding-right: 13px
+}
+
+.menu__link:hover {
+	background: #4eabda;
+	color: white;
+}
+
+/*.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+
+}*/
+
+.header__buttons {
+	height: 36px;
+	float: left;
+	background: #074c89;
+	color: white;
+	border: #074c89;
+	font-size: 14px;
+	padding: 0 20px;
+}
+
+.header__buttons:hover {
+	background: linear-gradient(180deg, #50afdc, #2e7ac4);
+}
+
+.header__buttons > img {
+	padding-right: 10px; 
+}
+
+/*CONTENT*/
+
+.content {
+	background-image: url(../img/background.jpg);
+	width: 1215px;
+	height: 1030px;
+	position: relative;
+}
+
+.content__form {
+	width: 560px;
+	height: 614px;
+	margin:auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	overflow: auto; 
+}
+
+.form__title {
+	width: 560px;
+	height: 62px;
+	display: block;
+	background: rgba(0,0,0,0.6);
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	line-height: 62px;
+}
+
+.form__container {
+	width: 560px;
+	height: 511px;
+	margin-top: 2px;
+	background: rgba(0,0,0,0.6);
+	padding-top: 39px;
+}
+
+.form__button {
+	width: 276px;
+	height: 35px;
+	display: block;
+	margin: 0 auto;
+	background: linear-gradient(180deg, #7789b7, #344066);
+	border: none;
+	color: white;
+}
+
+.form__line {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	line-height: 34px;
+	margin: 20px 0;
+	color: #999999;
+}
+
+.form__input {
+	width: 268px;
+	height: 31px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px; 
+	background: linear-gradient(180deg, #111110, #141414);
+	color: white;
+	border: none;
+	transition: 0.2s; 
+} 
+
+.form__input:hover {
+	background: linear-gradient(180deg, #1e4b76, #1b5288);
+	color: white;
+	box-shadow: 0px 0px 8px 5px rgba(81,140,182,1);
+	border: none;
+}
+
+::placeholder {
+   color: #cccccc;
+}
+
+.form__checkbox {
+	width: 276px;
+	margin: 0 auto;
+	color: white;
+}
+
+.checkbox__text {
+	color: #cccccc;
+}
+
+.form__button__create {
+	width: 150px;
+	height: 38px;
+	display: block;
+	margin: 20px auto;
+	background: linear-gradient(180deg, #50aedb, #2e7ac4);
+	box-shadow: 0px 0px 10px 0px rgba(103,198,230,1);
+	border: none;
+	color: white;
+	font-size: 14px;
+}
+
+.form__text {
+	display: block;
+	color: #cccccc;
+	text-align: center;
+	font-size: 12px;
+	width: 330px;
+	margin: 0 auto;
+	line-height: 15px;
+}
