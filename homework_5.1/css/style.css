@@ -1,0 +1,33 @@
+td {
+	border: 8px solid #16110b;
+	width: 50px;
+	height: 50px;
+}
+
+table {
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.c22 {
+	width: 200px;
+	height: 200px;
+	background: #ff5b27;
+}
+
+.c26 {
+	width: 100px;
+	height: 100px;
+}
+
+.c16, .c26, .c71 {
+	background: #ffec56;
+}
+
+.c76 {
+	background: #0c4a8b;
+}
+
+.c62, .c84 {
+	background: #0c0b0c;
+}
