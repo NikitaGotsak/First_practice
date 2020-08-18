@@ -1,0 +1,179 @@
+body {
+	background-image: url(../img/background.jpg);
+}
+
+.box {
+	width: 1000px;
+	height: 998px;
+	margin: 38px 129px 30px 151px;
+	background: white;
+	font-family: Tahoma , Arial , sans-serif;
+}
+
+/*HEADER*/
+
+.header__logo {
+	margin-left: 28px;
+	margin-top: 11px;
+	float: left;
+}
+
+.header__contact {
+	float: right;
+	margin-top: 11px;
+	margin-right: 34px;
+	color: #5fa5bb;
+	line-height: 18px;
+}
+
+.header__contact__item:first-child {
+	font-weight: bold;
+	line-height: 21px;
+}
+
+.header__countries {
+	height: 50px;
+	width: 350px;
+	font-size: 10px;
+	padding-top: 111px;
+	padding-left: 630px;
+}
+
+.header__item div {
+	width: 42px;
+	height: 42px;
+	background-image: url(../img/sprite.png);
+	margin-left: 6px;
+}
+
+.header__item {
+	margin-left: 3px;
+}
+
+.image__nepal {
+	background-position: -41px 0;
+}
+
+.image__tibet {
+	background-position: -82px 0;
+}
+
+.image__butan {
+	background-position: -123px 0;
+}
+
+.image__sri_lanka {
+	background-position: -164px 0;
+}
+
+.image__maldivas {
+	background-position: -205px 0;
+}
+
+.header__countries__link {
+	text-align: center;
+	display: block;
+	color: #128aa7;
+}
+
+.header__countries li {
+	float: left;
+	height: 64px;
+	width: 54px;
+}
+
+hr {
+	color: #128aa7;
+	size: 1px;
+	margin: 0;
+	border-bottom: 0;
+}
+
+.header__menu {
+	background: linear-gradient(180deg, #373737, #303030);
+	border-bottom: 1px solid #000000;
+}
+
+.header__menu a {
+	/*text-align: center;*/
+	text-decoration: none;
+	background: #333333;
+	color: #fff;
+	font-family: Tahoma;
+	font-size: 14px;
+	display: block;
+	padding: 7px;
+	/*padding-left: 52px;*/
+	width: 122px;
+}
+
+.header__menu__item {
+	float: left;
+	position: relative;
+	width: 122px;
+	margin-left: 15px;
+	/*background: linear-gradient(180deg, #373737, #303030);*/
+}
+
+.submenu__item {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+.submenu__link {
+	display: block;
+}
+
+ul.header__menu > li:hover > ul.submenu__item {
+    display: block;
+}
+
+/*CONTENT*/
+
+.content {
+	border-bottom: 3px solid #031d28;
+}
+
+
+.content__info {
+	float:left;
+	width: 210px;
+	height: 552px;
+	background-color: #edeef0;
+	font-size: 14px;
+	font-family: Tahoma;
+	line-height: 23px;
+	text-align: center;
+}
+
+.content__news {
+	float:right;
+	width: 210px;
+	height: 552px;
+	background-color: #edeef0;
+	font-size: 14px;
+	font-family: Tahoma;
+	line-height: 23px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 18px;
+	color: #424c43;
+	text-align: center;
+	margin: 12px 0;
+	font-weight: bold;
+}
+
+/*FOOTER*/
+
+span {
+	font-size: 12px;
+	font-family: Tahoma;
+	text-align: center;
+	display: block;
+	margin-top: 5px;
+	color: white;
+}
