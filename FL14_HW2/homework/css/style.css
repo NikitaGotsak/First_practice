@@ -1,0 +1,131 @@
+.tm-bg-color-primary {
+    background-color: #76cdd8;
+}
+
+section {
+    width: 1200px;
+    /*width: 75rem;*/
+}
+
+section:nth-child(n+2):nth-child(-n+4) h2/*,
+section:nth-child(3) h2,
+section:nth-child(4) h2 */{
+	color: #76cdd8;
+}
+
+section:nth-child(1):hover q ,
+section:nth-child(2):hover q ,
+section:nth-child(3):hover p {
+	color: #76cdd8;
+}
+
+section:nth-child(2n) .btn:hover/*,
+section:nth-child(4) .btn:hover,
+section:nth-child(6) .btn:hover */{
+	background-color: rgb(118, 205, 216);
+	border: 1px solid rgb(118, 205, 216);
+}
+
+section:nth-child(n+3):nth-child(-n+5) .img-fluid:hover/*,
+section:nth-child(4) .img-fluid:hover,
+section:nth-child(5) .img-fluid:hover */{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+section:nth-child(n+3):nth-child(-n+5) .img-fluid:not(:hover)/*,
+section:nth-child(4) .img-fluid:not(:hover),
+section:nth-child(5) .img-fluid:not(:hover) */{
+	transition: 0.5s;
+}
+
+.tm-pricing-table:hover {
+	box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.tm-pricing-table .btn:hover {
+	background: #24d4d4;
+}
+
+.tm-pricing-table:hover .tm-pricing-discount {
+	display: block;
+}
+
+.tm-pricing-discount__star {
+    color: red;
+}
+
+.tm-pricing-discount__text {
+    color: #24d4d4;
+}
+
+.form-group > .form-control:focus, select:focus {
+	border-color: #24d4d4;
+	box-shadow: 0 0 0 0.2rem #24d4d4; 
+}
+
+section:nth-child(2):hover::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 40px solid transparent;
+	border-top: 40px solid #76cdd8;
+	border-left: 40px solid #76cdd8;
+}
+
+section:nth-child(1):hover::before,
+section:nth-child(3):hover::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 40px solid transparent;
+	border-top: 40px solid #76cdd8;
+	border-right: 40px solid #76cdd8;
+}
+
+.tm-col-md-reverse {
+	flex-direction: row-reverse;
+}
+
+section:nth-child(n+4)/*,
+section:nth-child(5),
+section:nth-child(6) */{
+	margin-top: 30px;
+}
+
+.btn {
+	background-color: #019999;
+	border: 1px solid #019999;
+}
+
+.tm-pricing-table {
+	border: 1px solid #019999;
+}
+
+.tm-bg-color-secondary {
+	background-color: #019999;
+}
+
+.tm-form-header {
+	background-color: #23d4d4;
+}
+
+section:nth-child(6) > div:nth-child(2) {
+    z-index: 1;
+    top: -56px;
+}
+
+section:nth-child(6) > div:nth-child(3) {
+    top: -111px;
+}
+
+section:nth-child(6) {
+	height: 829px;
+}
+
+body .container > div {
+	width: 1200px;
+	/*width: 75rem;*/
+}
